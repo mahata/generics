@@ -5,6 +5,6 @@ package com.thisisphresh.test.account;
  *
  * @author hirogwa
  */
-public interface AccountController<E extends SignupEntry> {
-	PhreshUser signup(E entry);
+public interface AccountController {
+	public abstract PhreshUser signup(SignupEntry entry);
 }

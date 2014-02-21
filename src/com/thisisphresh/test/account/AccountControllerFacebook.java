@@ -5,9 +5,9 @@ package com.thisisphresh.test.account;
  *
  * @author hirogwa
  */
-public class AccountControllerFacebook implements AccountController<SignupEntryFacebook> {
+public class AccountControllerFacebook implements AccountController {
 	@Override
-	public PhreshUser signup(SignupEntryFacebook entry) {
+	public PhreshUser signup(SignupEntry entry) {
 		return null;
 	}
 }
